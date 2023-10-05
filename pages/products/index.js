@@ -30,7 +30,7 @@ function Products({ initialProducts }) {
       <input
         type="text"
         name="name"
-        placeholder="Search by name..."
+        placeholder="Search by name of user..."
         value={filters.name}
         onChange={handleInputChange}
       />
